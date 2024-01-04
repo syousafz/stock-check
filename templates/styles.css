@@ -2,7 +2,39 @@ body {
     background-color: #c3e7e8;
 }
 
-:root{
+:root {
     --primary-color: #c3e7e8;
     --secondary-color: #fff;
+}
+#timer {
+    font-size: medium;
+    font-family: Helvetica;
+    margin-left: 40px;
+}
+form {
+    font-family: Helvetica;
+    padding: 20px;
+    margin: 20px;
+}
+#new-ticker {
+    margin-right: 10px;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a9da3; /* Change color on hover */
+    color: white;
 }
