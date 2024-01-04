@@ -14,5 +14,6 @@ def get_stock_data():
     return jsonify({'currentPrice': data.iloc[-1].Close,
                     'openPrice': data.iloc[-1].Open})
 
+
 if __name__ == '__main__':
     app.run(debug=True)
